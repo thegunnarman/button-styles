@@ -10,4 +10,89 @@ html {
 div {
   padding: .5rem;
   text-align: center;
+  text-decoration: none;
+}
+
+.btn {
+  font-size: 1.125rem;
+  font-weight: normal;
+  color: #fff;
+  background-color: #333;
+  border-color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+}
+
+.btn-subtle:hover {
+  background-color: #333;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-subtle.btn-small:hover {
+  background-color: #333;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-subtle.btn-big:hover {
+  background-color: #333;
+}
+
+.btn-warning {
+  background-color: #f33;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+}
+
+.btn-warning.btn-small:hover {
+  background-color: #933;
+}
+
+.btn-warning.btn-big:hover {
+  background-color: #933;
+}
+
+.btn-big:hover {
+  background-color: #000;
+}
+
+.btn-small:hover {
+  background-color: #000;
+}
+
+.btn-ghost {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
+
+.btn-ghost:hover {
+  background-color: #333;
+}
+
+.btn-ghost.btn-small:hover {
+  background-color: #333;
+}
+
+.btn-ghost.btn-big:hover {
+  background-color: #333;
 }
